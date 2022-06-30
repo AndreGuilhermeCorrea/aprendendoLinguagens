@@ -1,0 +1,26 @@
+package entities;
+
+import entities.enums.MetodosAbstratos_Color;
+//CLASSE ABSTRATA POIS O MÉTODO É ABSTRADO
+public abstract class MetodosAbstratos_shape {
+
+	private MetodosAbstratos_Color metodosAbstratos_Color;
+	
+	public MetodosAbstratos_shape() {
+	}
+	
+	public MetodosAbstratos_shape(MetodosAbstratos_Color metodosAbstratos_Color) {
+		this.metodosAbstratos_Color = metodosAbstratos_Color;
+	}
+
+	public MetodosAbstratos_Color getMetodosAbstratos_Color() {
+		return metodosAbstratos_Color;
+	}
+
+	public void setMetodosAbstratos_Color(MetodosAbstratos_Color metodosAbstratos_Color) {
+		this.metodosAbstratos_Color = metodosAbstratos_Color;
+	}
+	
+	//MÉTODO ABSTRATO
+	public abstract double area();
+}

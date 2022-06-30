@@ -1,0 +1,11 @@
+package entidade_enums;
+
+public enum OrderStatus {
+
+	// CONJUNTO DE CONSTANTES
+	PENDING_PAYMENT, // PENDENTE DE PAGAMENTO
+	PROCESSING, // PROCESSANDO
+	SHIPPED, // ENVIADO
+	DELIVERED;// ENTREGUE
+
+}
